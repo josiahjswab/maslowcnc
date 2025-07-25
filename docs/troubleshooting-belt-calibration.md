@@ -87,6 +87,24 @@ This guide addresses common issues with the "Extend All Belts" step extending mo
 5. **Reset and Retry**: If necessary, reset the system and start the process over
 6. **Check Forum Solutions**: Refer to the specific forum threads listed above for detailed solutions
 
+### Understanding Fitness Scores
+
+**What is Fitness?**: The fitness score is a measurement of how accurately the Maslow system can predict and reach target positions during calibration. It represents the convergence quality of the calibration process.
+
+**Fitness Indicators**:
+- **Low Fitness (e.g., 0.2 or below)**: Indicates poor calibration convergence, typically requiring troubleshooting
+- **Improving Fitness**: Scores that increase during calibration suggest the system is converging properly
+- **Fitness "Not Close" or "Not Converging"**: Common error messages when calibration cannot achieve acceptable accuracy
+
+**Common Causes of Poor Fitness**:
+- Incorrect frame dimensions
+- Loose or uneven belt tension
+- Sled movement obstructions
+- Motor step count inaccuracies
+- Physical setup issues (frame not square, anchor points misaligned)
+
+**Note**: The Maslow community continues to discuss optimal fitness values in the forum threads. For current benchmarks and troubleshooting specific to your setup, refer to the linked forum discussions above.
+
 ## Additional Resources
 
 - [Maslow CNC Troubleshooting Forum](https://forums.maslowcnc.com/c/troubleshooting/12) - Main troubleshooting category
