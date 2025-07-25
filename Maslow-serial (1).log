@@ -1,0 +1,64 @@
+Serial Messages
+Index.html Version: 1.07
+[MSG:INFO: Channel auto report interval set to 50 ms]
+[MSG:INFO: FluidNC v0.87 (Maslow-Main-ec171155-dirty)]
+[MSG:INFO: Compiled with ESP32 SDK:v4.4.7-dirty]
+[MSG:INFO: Local filesystem type is littlefs]
+[MSG:INFO: Configuration file:maslow.yaml]
+[MSG:INFO: Machine Maslow S3 Board]
+[MSG:INFO: Board Maslow]
+[MSG:INFO: UART1 Tx:gpio.1 Rx:gpio.2 RTS:NO_PIN Baud:115200]
+[MSG:INFO: SPI SCK:gpio.12 MOSI:gpio.11 MISO:gpio.13]
+[MSG:INFO: SD Card cs_pin:gpio.10 detect:NO_PIN freq:8000000]
+[MSG:INFO: Stepping:Timed Pulse:4us Dsbl Delay:0us Dir Delay:0us Idle Delay:240ms]
+[MSG:INFO: Axis count 3]
+[MSG:INFO: Axis X (-2438.400,0.000)]
+[MSG:INFO:   Motor0]
+[MSG:INFO: Axis Y (-1219.200,0.000)]
+[MSG:INFO:   Motor0]
+[MSG:INFO: Axis Z (-100.000,0.000)]
+[MSG:INFO:   Motor0]
+[MSG:INFO:     tmc_2209 UART1 Addr:0 Step:gpio.15 Dir:gpio.16 Disable:NO_PIN R:0.110]
+[MSG:INFO:   Motor1]
+[MSG:INFO:     tmc_2209 UART1 Addr:1 Step:gpio.46 Dir:gpio.38 Disable:NO_PIN R:0.110]
+[MSG:INFO: Z Axis driver test passed]
+[MSG:INFO: Z2 Axis driver test passed]
+[MSG:INFO: Kinematic system: Cartesian]
+[MSG:INFO: Using spindle NoSpindle]
+[MSG:INFO: Connecting to STA SSID:SweetHome]
+[MSG:INFO: Connecting.]
+[MSG:INFO: Connecting..]
+[MSG:INFO: Connected - IP is 10.0.0.13]
+[MSG:INFO: WiFi on]
+[MSG:INFO: Start mDNS with hostname:http://maslow.local/]
+[MSG:INFO: SSDP Started]
+[MSG:INFO: HTTP started on port 80]
+[MSG:INFO: Telnet started on port 23]
+error:3
+error:3
+[MSG:INFO: Channel auto report interval set to 50 ms]
+[MSG:INFO: Caution: Unlocked]
+Retract All
+[MSG:INFO: Retracting all belts]
+error:3
+error:3
+error:3
+error:3
+[MSG:INFO: Bottom Left pulled tight with offset -1781.202]
+[MSG:INFO: Bottom Right pulled tight with offset -1751.818]
+[MSG:INFO: Top Left pulled tight with offset -1800.763]
+[MSG:INFO: Top Right pulled tight with offset -1806.228]
+Extend All
+[MSG:INFO: Extending all belts]
+[MSG:INFO: All belts extended to center position]
+error:3
+error:3
+Calibrate
+[MSG:INFO: Setting z-stop position]
+[MSG:INFO: Measured waypoint 0]
+[MSG:INFO: Center point deviation: TL: -0.036 TR: -0.035 BL: 225.944 BR: 214.358]
+[MSG:ERR: Center point deviation over 100.000mmm, your coordinate system is not accurate, adjust your frame dimensions and restart.]
+[MSG:ERR: Frame size error, try entering larger frame dimensions and restart.]
+[MSG:ERR: Emergency stop! Stopping all motors]
+[MSG:WARN: The machine will not respond until turned off and back on again]
+[MSG:ERR: Frame size error, try entering larger frame dimensions and restart.]
